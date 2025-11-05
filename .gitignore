@@ -1,0 +1,46 @@
+# API keys and sensitive data
+.env
+*.env
+config/private*
+secrets/
+keys/
+api_keys.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.env/
+.pytest_cache/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data cache and temporary files
+data/raw/
+*.csv
+*.xlsx
+*.log
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Package files
+*.egg-info/
+dist/
+build/
