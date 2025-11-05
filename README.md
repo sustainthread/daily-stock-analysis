@@ -1,7 +1,6 @@
 # Daily Stock Analysis Dashboard
 
-Live dashboard: [https://your-username.github.io/daily-stock-analysis](https://your-username.github.io/daily-stock-analysis)
-
+Live dashboard: https://sustainthread.github.io/daily-stock-analysis/
 ## Features
 - Daily stock screening across US, UK, EU markets
 - Technical analysis indicators
