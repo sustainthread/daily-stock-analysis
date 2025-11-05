@@ -1,0 +1,6 @@
+title: Daily Stock Analysis
+description: Real-time stock analysis dashboard
+theme: jekyll-theme-cayman
+include:
+  - frontend
+  - data
