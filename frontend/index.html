@@ -1,1 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Analysis Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📈 Daily Stock Analysis</h1>
+            <p>Identifying potential opportunities across global markets</p>
+            <div class="last-updated">Last updated: <span id="update-time">Loading...</span></div>
+        </header>
 
+        <div class="controls">
+            <div class="filters">
+                <button class="filter-btn active" data-region="all">All Regions</button>
+                <button class="filter-btn" data-region="US">US Market</button>
+                <button class="filter-btn" data-region="UK">UK Market</button>
+                <button class="filter-btn" data-region="EU">EU Market</button>
+            </div>
+            <div class="search">
+                <input type="text" id="stock-search" placeholder="Search stocks...">
+            </div>
+        </div>
+
+        <div class="stats-bar">
+            <div class="stat">
+                <span class="stat-value" id="total-stocks">--</span>
+                <span class="stat-label">Stocks Tracked</span>
+            </div>
+            <div class="stat">
+                <span class="stat-value" id="high-confidence">--</span>
+                <span class="stat-label">High Confidence</span>
+            </div>
+            <div class="stat">
+                <span class="stat-value" id="avg-score">--</span>
+                <span class="stat-label">Avg Score</span>
+            </div>
+        </div>
+
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <p>Loading stock data and analysis...</p>
+        </div>
+
+        <div id="stock-grid" class="stock-grid" style="display: none;"></div>
+
+        <div id="error-message" class="error-message" style="display: none;">
+            <p>⚠️ Unable to load live data. Displaying sample analysis.</p>
+        </div>
+
+        <footer>
+            <div class="disclaimer">
+                <strong>Disclaimer:</strong> This dashboard is for educational and research purposes only. 
+                Not financial advice. Always conduct your own research.
+            </div>
+            <div class="info">
+                Data updates daily | Built with Yahoo Finance API | 
+                <a href="https://github.com/your-username/daily-stock-analysis" target="_blank">View Source Code</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/dashboard.js"></script>
+</body>
+</html>
