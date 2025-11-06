@@ -1,9 +1,8 @@
 {
-  "last_updated": "2025-11-05T23:36:14.297443",
+  "last_updated": "2025-11-06T06:57:37.489531",
   "total_stocks_analyzed": 18,
   "data_sources": {
-    "alphavantage": 13,
-    "sample": 5
+    "alphavantage": 18
   },
   "stocks": [
     {
@@ -18,7 +17,7 @@
       "analysis": "\ud83d\udcc8 Positive trend developing with significant price movement volume below average",
       "catalyst": "Alpha Vantage API data",
       "data_source": "alphavantage",
-      "last_updated": "2025-11-05T23:35:14.995384",
+      "last_updated": "2025-11-06T06:56:46.373336",
       "region": "US"
     },
     {
@@ -33,7 +32,7 @@
       "analysis": "\ud83d\udcc8 Positive trend developing with significant price movement volume below average",
       "catalyst": "Alpha Vantage API data",
       "data_source": "alphavantage",
-      "last_updated": "2025-11-05T23:36:14.296367",
+      "last_updated": "2025-11-06T06:57:37.488826",
       "region": "EU"
     },
     {
@@ -48,7 +47,7 @@
       "analysis": "\ud83d\udcc8 Positive trend developing with significant price movement volume below average",
       "catalyst": "Alpha Vantage API data",
       "data_source": "alphavantage",
-      "last_updated": "2025-11-05T23:35:23.196192",
+      "last_updated": "2025-11-06T06:56:55.827539",
       "region": "US"
     },
     {
@@ -63,7 +62,7 @@
       "analysis": "\ud83d\udcc8 Positive trend developing with positive price action volume below average",
       "catalyst": "Alpha Vantage API data",
       "data_source": "alphavantage",
-      "last_updated": "2025-11-05T23:35:27.374489",
+      "last_updated": "2025-11-06T06:57:00.888911",
       "region": "US"
     },
     {
@@ -78,7 +77,22 @@
       "analysis": "\ud83d\udcc8 Positive trend developing with positive price action volume below average",
       "catalyst": "Alpha Vantage API data",
       "data_source": "alphavantage",
-      "last_updated": "2025-11-05T23:35:35.695035",
+      "last_updated": "2025-11-06T06:57:10.222963",
+      "region": "UK"
+    },
+    {
+      "ticker": "HSBA.L",
+      "current_price": 1085.8,
+      "price_change": 16.8,
+      "price_change_percent": 1.57,
+      "volume": 48636117,
+      "volume_ratio": 1.0,
+      "company_name": "HSBC Holdings PLC",
+      "confidence_score": 62,
+      "analysis": "\ud83d\udcc8 Positive trend developing with positive price action volume below average",
+      "catalyst": "Alpha Vantage API data",
+      "data_source": "alphavantage",
+      "last_updated": "2025-11-06T06:57:13.259388",
       "region": "UK"
     },
     {
@@ -93,7 +107,7 @@
       "analysis": "\u26a1 Watch for confirmation with positive price action volume below average",
       "catalyst": "Alpha Vantage API data",
       "data_source": "alphavantage",
-      "last_updated": "2025-11-05T23:35:06.186228",
+      "last_updated": "2025-11-06T06:56:40.812905",
       "region": "US"
     },
     {
@@ -108,7 +122,7 @@
       "analysis": "\u26a1 Watch for confirmation with positive price action volume below average",
       "catalyst": "Alpha Vantage API data",
       "data_source": "alphavantage",
-      "last_updated": "2025-11-05T23:35:32.295536",
+      "last_updated": "2025-11-06T06:57:04.774767",
       "region": "US"
     },
     {
@@ -116,44 +130,59 @@
       "current_price": 1098.46,
       "price_change": 5.5,
       "price_change_percent": 0.5,
-      "volume": 3548891,
+      "volume": 3538577,
       "volume_ratio": 1.0,
       "company_name": "Netflix Inc.",
       "confidence_score": 56,
       "analysis": "\u26a1 Watch for confirmation with positive price action volume below average",
       "catalyst": "Alpha Vantage API data",
       "data_source": "alphavantage",
-      "last_updated": "2025-11-05T23:35:35.374822",
+      "last_updated": "2025-11-06T06:57:09.968517",
       "region": "US"
     },
     {
-      "ticker": "VOD.L",
-      "current_price": 0.69,
-      "price_change": -0.01,
-      "price_change_percent": -1.96,
-      "volume": 16251661,
-      "volume_ratio": 2.13,
-      "company_name": "Vodafone Group PLC",
-      "confidence_score": 53,
-      "analysis": "\u26a1 Watch for confirmation consolidating at current levels on high volume",
-      "catalyst": "Sample data - API limited",
-      "data_source": "sample",
-      "last_updated": "2025-11-05T23:35:49.871960",
+      "ticker": "LLOY.L",
+      "current_price": 89.56,
+      "price_change": 0.66,
+      "price_change_percent": 0.74,
+      "volume": 195067933,
+      "volume_ratio": 1.0,
+      "company_name": "Lloyds Banking Group",
+      "confidence_score": 56,
+      "analysis": "\u26a1 Watch for confirmation with positive price action volume below average",
+      "catalyst": "Alpha Vantage API data",
+      "data_source": "alphavantage",
+      "last_updated": "2025-11-06T06:57:15.996805",
       "region": "UK"
     },
     {
-      "ticker": "AIR.PA",
-      "current_price": 126.87,
-      "price_change": -3.83,
-      "price_change_percent": -2.93,
-      "volume": 5284182,
-      "volume_ratio": 1.37,
-      "company_name": "Airbus SE",
-      "confidence_score": 53,
-      "analysis": "\u26a1 Watch for confirmation consolidating at current levels on average volume",
-      "catalyst": "Sample data - API limited",
-      "data_source": "sample",
-      "last_updated": "2025-11-05T23:35:53.535382",
+      "ticker": "VOD.L",
+      "current_price": 86.92,
+      "price_change": 0.32,
+      "price_change_percent": 0.37,
+      "volume": 45443951,
+      "volume_ratio": 1.0,
+      "company_name": "Vodafone Group PLC",
+      "confidence_score": 56,
+      "analysis": "\u26a1 Watch for confirmation with positive price action volume below average",
+      "catalyst": "Alpha Vantage API data",
+      "data_source": "alphavantage",
+      "last_updated": "2025-11-06T06:57:19.023195",
+      "region": "UK"
+    },
+    {
+      "ticker": "SIE.DE",
+      "current_price": 245.0,
+      "price_change": 0.8,
+      "price_change_percent": 0.33,
+      "volume": 894514,
+      "volume_ratio": 1.0,
+      "company_name": "Siemens AG",
+      "confidence_score": 56,
+      "analysis": "\u26a1 Watch for confirmation with positive price action volume below average",
+      "catalyst": "Alpha Vantage API data",
+      "data_source": "alphavantage",
+      "last_updated": "2025-11-06T06:57:26.667924",
       "region": "EU"
     },
     {
@@ -168,7 +197,22 @@
       "analysis": "\u26a1 Watch for confirmation consolidating at current levels volume below average",
       "catalyst": "Alpha Vantage API data",
       "data_source": "alphavantage",
-      "last_updated": "2025-11-05T23:35:10.286971",
+      "last_updated": "2025-11-06T06:56:43.038399",
+      "region": "US"
+    },
+    {
+      "ticker": "NVDA",
+      "current_price": 195.21,
+      "price_change": -3.48,
+      "price_change_percent": -1.75,
+      "volume": 166849081,
+      "volume_ratio": 1.0,
+      "company_name": "NVIDIA Corporation",
+      "confidence_score": 50,
+      "analysis": "\u26a1 Watch for confirmation consolidating at current levels volume below average",
+      "catalyst": "Alpha Vantage API data",
+      "data_source": "alphavantage",
+      "last_updated": "2025-11-06T06:56:51.304225",
       "region": "US"
     },
     {
@@ -183,22 +227,22 @@
       "analysis": "\u26a1 Watch for confirmation consolidating at current levels volume below average",
       "catalyst": "Alpha Vantage API data",
       "data_source": "alphavantage",
-      "last_updated": "2025-11-05T23:35:52.267914",
+      "last_updated": "2025-11-06T06:57:21.742769",
       "region": "UK"
     },
     {
-      "ticker": "SIE.DE",
-      "current_price": 159.0,
-      "price_change": -4.47,
-      "price_change_percent": -2.74,
-      "volume": 5486955,
-      "volume_ratio": 1.14,
-      "company_name": "Siemens AG",
+      "ticker": "AIR.PA",
+      "current_price": 212.35,
+      "price_change": -0.5,
+      "price_change_percent": -0.23,
+      "volume": 620877,
+      "volume_ratio": 1.0,
+      "company_name": "Airbus SE",
       "confidence_score": 50,
-      "analysis": "\u26a1 Watch for confirmation consolidating at current levels on average volume",
-      "catalyst": "Sample data - API limited",
-      "data_source": "sample",
-      "last_updated": "2025-11-05T23:35:58.625182",
+      "analysis": "\u26a1 Watch for confirmation consolidating at current levels volume below average",
+      "catalyst": "Alpha Vantage API data",
+      "data_source": "alphavantage",
+      "last_updated": "2025-11-06T06:57:21.958722",
       "region": "EU"
     },
     {
@@ -213,7 +257,7 @@
       "analysis": "\u26a1 Watch for confirmation consolidating at current levels volume below average",
       "catalyst": "Alpha Vantage API data",
       "data_source": "alphavantage",
-      "last_updated": "2025-11-05T23:36:04.003337",
+      "last_updated": "2025-11-06T06:57:31.706787",
       "region": "EU"
     },
     {
@@ -228,53 +272,8 @@
       "analysis": "\u26a1 Watch for confirmation consolidating at current levels volume below average",
       "catalyst": "Alpha Vantage API data",
       "data_source": "alphavantage",
-      "last_updated": "2025-11-05T23:36:08.648000",
+      "last_updated": "2025-11-06T06:57:34.308486",
       "region": "EU"
-    },
-    {
-      "ticker": "HSBA.L",
-      "current_price": 7.09,
-      "price_change": 0.07,
-      "price_change_percent": 1.02,
-      "volume": 13878937,
-      "volume_ratio": 1.6,
-      "company_name": "HSBC Holdings PLC",
-      "confidence_score": 41,
-      "analysis": "\ud83d\udd04 Needs stronger signals with positive price action on high volume",
-      "catalyst": "Sample data - API limited",
-      "data_source": "sample",
-      "last_updated": "2025-11-05T23:35:39.804015",
-      "region": "UK"
-    },
-    {
-      "ticker": "NVDA",
-      "current_price": 198.69,
-      "price_change": -8.19,
-      "price_change_percent": -3.96,
-      "volume": 188919320,
-      "volume_ratio": 1.0,
-      "company_name": "NVIDIA Corporation",
-      "confidence_score": 40,
-      "analysis": "\ud83d\udd04 Needs stronger signals consolidating at current levels volume below average",
-      "catalyst": "Alpha Vantage API data",
-      "data_source": "alphavantage",
-      "last_updated": "2025-11-05T23:35:18.809428",
-      "region": "US"
-    },
-    {
-      "ticker": "LLOY.L",
-      "current_price": 0.43,
-      "price_change": 0.0,
-      "price_change_percent": 0.85,
-      "volume": 25502210,
-      "volume_ratio": 1.91,
-      "company_name": "Lloyds Banking Group",
-      "confidence_score": 40,
-      "analysis": "\ud83d\udd04 Needs stronger signals with positive price action on high volume",
-      "catalyst": "Sample data - API limited",
-      "data_source": "sample",
-      "last_updated": "2025-11-05T23:35:43.853578",
-      "region": "UK"
     }
   ]
 }
