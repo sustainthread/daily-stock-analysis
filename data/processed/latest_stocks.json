@@ -1,39 +1,39 @@
 {
-  "last_updated": "2026-05-25T09:59:46.286373",
+  "last_updated": "2026-05-26T09:48:38.557296",
   "total_stocks_analyzed": 18,
   "data_sources": {
-    "sample": 2,
-    "alphavantage": 16
+    "alphavantage": 16,
+    "sample": 2
   },
   "stocks": [
     {
-      "ticker": "AIR.PA",
-      "current_price": 150.74,
-      "price_change": -0.25,
-      "price_change_percent": -0.16,
-      "volume": 30144711,
-      "volume_ratio": 1.97,
-      "company_name": "Airbus SE",
-      "confidence_score": 73,
-      "analysis": "\ud83d\udcc8 Positive trend developing consolidating at current levels on high volume",
-      "catalyst": "Sample data - API limited",
-      "data_source": "sample",
-      "last_updated": "2026-05-25T09:59:33.508372",
-      "region": "EU"
-    },
-    {
-      "ticker": "ASML.AS",
-      "current_price": 1409.0,
-      "price_change": 63.8,
-      "price_change_percent": 4.74,
-      "volume": 680229,
+      "ticker": "SIE.DE",
+      "current_price": 276.75,
+      "price_change": 8.15,
+      "price_change_percent": 3.03,
+      "volume": 769136,
       "volume_ratio": 1.0,
-      "company_name": "ASML Holding NV",
+      "company_name": "Siemens AG",
       "confidence_score": 70,
       "analysis": "\ud83d\udcc8 Positive trend developing with significant price movement volume below average",
       "catalyst": "Alpha Vantage API data",
       "data_source": "alphavantage",
-      "last_updated": "2026-05-25T09:59:41.045172",
+      "last_updated": "2026-05-26T09:48:24.738966",
+      "region": "EU"
+    },
+    {
+      "ticker": "SAF.PA",
+      "current_price": 301.5,
+      "price_change": 16.5,
+      "price_change_percent": 5.79,
+      "volume": 571907,
+      "volume_ratio": 1.0,
+      "company_name": "Safran SA",
+      "confidence_score": 70,
+      "analysis": "\ud83d\udcc8 Positive trend developing with significant price movement volume below average",
+      "catalyst": "Alpha Vantage API data",
+      "data_source": "alphavantage",
+      "last_updated": "2026-05-26T09:48:33.776741",
       "region": "EU"
     },
     {
@@ -48,7 +48,7 @@
       "analysis": "\ud83d\udcc8 Positive trend developing with positive price action volume below average",
       "catalyst": "Alpha Vantage API data",
       "data_source": "alphavantage",
-      "last_updated": "2026-05-25T09:58:49.262531",
+      "last_updated": "2026-05-26T09:47:45.473443",
       "region": "US"
     },
     {
@@ -63,37 +63,22 @@
       "analysis": "\ud83d\udcc8 Positive trend developing with positive price action volume below average",
       "catalyst": "Alpha Vantage API data",
       "data_source": "alphavantage",
-      "last_updated": "2026-05-25T09:58:58.729688",
+      "last_updated": "2026-05-26T09:47:51.779149",
       "region": "US"
-    },
-    {
-      "ticker": "TSCO.L",
-      "current_price": 3.24,
-      "price_change": 0.12,
-      "price_change_percent": 3.99,
-      "volume": 22026799,
-      "volume_ratio": 1.72,
-      "company_name": "Tesco PLC",
-      "confidence_score": 62,
-      "analysis": "\ud83d\udcc8 Positive trend developing with significant price movement on high volume",
-      "catalyst": "Sample data - API limited",
-      "data_source": "sample",
-      "last_updated": "2026-05-25T09:59:21.133227",
-      "region": "UK"
     },
     {
       "ticker": "HSBA.L",
       "current_price": 1374.2,
       "price_change": 16.2,
       "price_change_percent": 1.19,
-      "volume": 19190648,
+      "volume": 21480779,
       "volume_ratio": 1.0,
       "company_name": "HSBC Holdings PLC",
       "confidence_score": 62,
       "analysis": "\ud83d\udcc8 Positive trend developing with positive price action volume below average",
       "catalyst": "Alpha Vantage API data",
       "data_source": "alphavantage",
-      "last_updated": "2026-05-25T09:59:24.400219",
+      "last_updated": "2026-05-26T09:48:10.785081",
       "region": "UK"
     },
     {
@@ -101,44 +86,59 @@
       "current_price": 99.6,
       "price_change": 1.08,
       "price_change_percent": 1.1,
-      "volume": 87415223,
+      "volume": 87415656,
       "volume_ratio": 1.0,
       "company_name": "Lloyds Banking Group",
       "confidence_score": 62,
       "analysis": "\ud83d\udcc8 Positive trend developing with positive price action volume below average",
       "catalyst": "Alpha Vantage API data",
       "data_source": "alphavantage",
-      "last_updated": "2026-05-25T09:59:27.248123",
+      "last_updated": "2026-05-26T09:48:13.574735",
       "region": "UK"
     },
     {
-      "ticker": "SIE.DE",
-      "current_price": 268.6,
-      "price_change": 4.55,
-      "price_change_percent": 1.72,
-      "volume": 1033013,
+      "ticker": "ASML.AS",
+      "current_price": 1430.6,
+      "price_change": 21.6,
+      "price_change_percent": 1.53,
+      "volume": 323447,
       "volume_ratio": 1.0,
-      "company_name": "Siemens AG",
+      "company_name": "ASML Holding NV",
       "confidence_score": 62,
       "analysis": "\ud83d\udcc8 Positive trend developing with positive price action volume below average",
       "catalyst": "Alpha Vantage API data",
       "data_source": "alphavantage",
-      "last_updated": "2026-05-25T09:59:35.948322",
+      "last_updated": "2026-05-26T09:48:28.353509",
       "region": "EU"
     },
     {
-      "ticker": "SAF.PA",
-      "current_price": 285.0,
-      "price_change": 5.3,
-      "price_change_percent": 1.89,
-      "volume": 564945,
+      "ticker": "BMW.DE",
+      "current_price": 75.44,
+      "price_change": 0.96,
+      "price_change_percent": 1.29,
+      "volume": 1048048,
       "volume_ratio": 1.0,
-      "company_name": "Safran SA",
+      "company_name": "BMW AG",
       "confidence_score": 62,
       "analysis": "\ud83d\udcc8 Positive trend developing with positive price action volume below average",
       "catalyst": "Alpha Vantage API data",
       "data_source": "alphavantage",
-      "last_updated": "2026-05-25T09:59:44.063180",
+      "last_updated": "2026-05-26T09:48:38.556083",
+      "region": "EU"
+    },
+    {
+      "ticker": "AIR.PA",
+      "current_price": 131.96,
+      "price_change": -2.84,
+      "price_change_percent": -2.11,
+      "volume": 26154284,
+      "volume_ratio": 2.23,
+      "company_name": "Airbus SE",
+      "confidence_score": 58,
+      "analysis": "\u26a1 Watch for confirmation consolidating at current levels on high volume",
+      "catalyst": "Sample data - API limited",
+      "data_source": "sample",
+      "last_updated": "2026-05-26T09:48:21.082658",
       "region": "EU"
     },
     {
@@ -153,7 +153,7 @@
       "analysis": "\u26a1 Watch for confirmation with positive price action volume below average",
       "catalyst": "Alpha Vantage API data",
       "data_source": "alphavantage",
-      "last_updated": "2026-05-25T09:59:12.240385",
+      "last_updated": "2026-05-26T09:48:01.558085",
       "region": "US"
     },
     {
@@ -168,23 +168,23 @@
       "analysis": "\u26a1 Watch for confirmation with positive price action volume below average",
       "catalyst": "Alpha Vantage API data",
       "data_source": "alphavantage",
-      "last_updated": "2026-05-25T09:59:33.356807",
+      "last_updated": "2026-05-26T09:48:20.667626",
       "region": "UK"
     },
     {
-      "ticker": "BMW.DE",
-      "current_price": 74.48,
-      "price_change": 0.12,
-      "price_change_percent": 0.16,
-      "volume": 1215243,
-      "volume_ratio": 1.0,
-      "company_name": "BMW AG",
-      "confidence_score": 56,
-      "analysis": "\u26a1 Watch for confirmation with positive price action volume below average",
-      "catalyst": "Alpha Vantage API data",
-      "data_source": "alphavantage",
-      "last_updated": "2026-05-25T09:59:46.285740",
-      "region": "EU"
+      "ticker": "TSCO.L",
+      "current_price": 2.89,
+      "price_change": 0.03,
+      "price_change_percent": 1.03,
+      "volume": 3416706,
+      "volume_ratio": 2.25,
+      "company_name": "Tesco PLC",
+      "confidence_score": 54,
+      "analysis": "\u26a1 Watch for confirmation with positive price action on high volume",
+      "catalyst": "Sample data - API limited",
+      "data_source": "sample",
+      "last_updated": "2026-05-26T09:48:08.021017",
+      "region": "UK"
     },
     {
       "ticker": "MSFT",
@@ -198,7 +198,7 @@
       "analysis": "\u26a1 Watch for confirmation consolidating at current levels volume below average",
       "catalyst": "Alpha Vantage API data",
       "data_source": "alphavantage",
-      "last_updated": "2026-05-25T09:58:53.916241",
+      "last_updated": "2026-05-26T09:47:48.430018",
       "region": "US"
     },
     {
@@ -213,7 +213,7 @@
       "analysis": "\u26a1 Watch for confirmation consolidating at current levels volume below average",
       "catalyst": "Alpha Vantage API data",
       "data_source": "alphavantage",
-      "last_updated": "2026-05-25T09:59:03.825694",
+      "last_updated": "2026-05-26T09:47:55.296844",
       "region": "US"
     },
     {
@@ -228,7 +228,7 @@
       "analysis": "\u26a1 Watch for confirmation consolidating at current levels volume below average",
       "catalyst": "Alpha Vantage API data",
       "data_source": "alphavantage",
-      "last_updated": "2026-05-25T09:59:07.706355",
+      "last_updated": "2026-05-26T09:47:58.990727",
       "region": "US"
     },
     {
@@ -243,7 +243,7 @@
       "analysis": "\u26a1 Watch for confirmation consolidating at current levels volume below average",
       "catalyst": "Alpha Vantage API data",
       "data_source": "alphavantage",
-      "last_updated": "2026-05-25T09:59:16.806616",
+      "last_updated": "2026-05-26T09:48:04.122494",
       "region": "US"
     },
     {
@@ -258,7 +258,7 @@
       "analysis": "\u26a1 Watch for confirmation consolidating at current levels volume below average",
       "catalyst": "Alpha Vantage API data",
       "data_source": "alphavantage",
-      "last_updated": "2026-05-25T09:59:20.978372",
+      "last_updated": "2026-05-26T09:48:07.444637",
       "region": "US"
     },
     {
@@ -266,14 +266,14 @@
       "current_price": 111.35,
       "price_change": -0.65,
       "price_change_percent": -0.58,
-      "volume": 60085509,
+      "volume": 60090059,
       "volume_ratio": 1.0,
       "company_name": "Vodafone Group PLC",
       "confidence_score": 50,
       "analysis": "\u26a1 Watch for confirmation consolidating at current levels volume below average",
       "catalyst": "Alpha Vantage API data",
       "data_source": "alphavantage",
-      "last_updated": "2026-05-25T09:59:30.633191",
+      "last_updated": "2026-05-26T09:48:16.980420",
       "region": "UK"
     }
   ]
